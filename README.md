@@ -5,20 +5,31 @@ CREATE TABLE `enrollee` (
   `id` bigint(20) NOT NULL,
   
   `name` varchar(50) DEFAULT NULL,
+  
   `dateOfBirth` date DEFAULT NULL,
+  
   `isActive` tinyint(1) DEFAULT '1',
+  
   `phone` varchar(20) DEFAULT NULL,
+  
   PRIMARY KEY (`id`)
+  
 ) 
 
 
 
 CREATE TABLE `dependent` (
+
   `id` bigint(20) NOT NULL,
+  
   `enrolleeId` int(11) DEFAULT NULL,
+  
   `name` varchar(50) DEFAULT NULL,
+  
   `dateOfBirth` date DEFAULT NULL,
+  
   PRIMARY KEY (`id`)
+  
 )
 
 Configuration Changes :
