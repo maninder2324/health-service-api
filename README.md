@@ -112,7 +112,7 @@ Add Dependent:
 
 curl -s -X POST  \
 	-H "Content-Type: application/json" \
-	-d '{"id":200, "name":"Maninder","dateOfBirth":"2020-10-10"}' \
+	-d '{"id":200, "name":"Kannan","dateOfBirth":"2020-10-10"}' \
 	http://localhost:8080/api/enrollee/100/dependent
 
 
@@ -127,7 +127,7 @@ Update Dependent:
 
 curl -s -X PUT  \
 	-H "Content-Type: application/json" \
-	-d '{"name":"Maninder-name changed"}' \
+	-d '{"name":"Kannan-name changed"}' \
 	http://localhost:8080/api/dependent/200
 	
 Delete Dependent:
