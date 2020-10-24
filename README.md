@@ -21,8 +21,11 @@ Enrollee related API URLs :
 ---------------------------
 
 POST 	- 	http://localhost:8080/api/enrollee
+
 GET 	- 	http://localhost:8080/api/enrollee/100
+
 PUT 	-	http://localhost:8080/api/enrollee/100
+
 DELETE 	-	http://localhost:8080/api/enrollee/100
 
 
@@ -30,8 +33,11 @@ Dependent related API URLs :
 ----------------------------
 
 POST 	- 	http://localhost:8080/api/enrollee/100/dependent
+
 GET 	- 	http://localhost:8080/api/dependent/100
+
 PUT 	-	http://localhost:8080/api/dependent/100
+
 DELETE 	-	http://localhost:8080/api/dependent/100
 
 
