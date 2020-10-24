@@ -83,7 +83,7 @@ Add Enrollee:
 
 curl -s -X POST  \
 	-H "Content-Type: application/json" \
-	-d '{"id":100, "name":"Mani","isActive":true,"dateOfBirth":"2020-10-10"}' \
+	-d '{"id":100, "name":"Ravi","isActive":true,"dateOfBirth":"2020-10-10"}' \
 	http://localhost:8080/api/enrollee
 	
 
@@ -97,7 +97,7 @@ Update Enrollee:
 
 curl -s -X PUT  \
 	-H "Content-Type: application/json" \
-	-d '{"name":"Mani manu -name changed"}' \
+	-d '{"name":"Ravi Kumar -name changed"}' \
 	http://localhost:8080/api/enrollee/100
 
 Delete Enrollee:
@@ -112,7 +112,7 @@ Add Dependent:
 
 curl -s -X POST  \
 	-H "Content-Type: application/json" \
-	-d '{"id":200, "name":"Manda","dateOfBirth":"2020-10-10"}' \
+	-d '{"id":200, "name":"Maninder","dateOfBirth":"2020-10-10"}' \
 	http://localhost:8080/api/enrollee/100/dependent
 
 
@@ -127,7 +127,7 @@ Update Dependent:
 
 curl -s -X PUT  \
 	-H "Content-Type: application/json" \
-	-d '{"name":"maninder-name changed"}' \
+	-d '{"name":"Maninder-name changed"}' \
 	http://localhost:8080/api/dependent/200
 	
 Delete Dependent:
