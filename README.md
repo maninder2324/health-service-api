@@ -10,6 +10,8 @@ CREATE TABLE `enrollee` (
   PRIMARY KEY (`id`)
 ) 
 
+
+
 CREATE TABLE `dependent` (
   `id` bigint(20) NOT NULL,
   `enrolleeId` int(11) DEFAULT NULL,
