@@ -3,6 +3,7 @@ DataBase Structure
 
 CREATE TABLE `enrollee` (
   `id` bigint(20) NOT NULL,
+  
   `name` varchar(50) DEFAULT NULL,
   `dateOfBirth` date DEFAULT NULL,
   `isActive` tinyint(1) DEFAULT '1',
